@@ -1,0 +1,21 @@
+@import "tailwindcss";
+.bg-glass {
+    @apply bg-white/10 backdrop-blur-md border border-white/20 shadow-lg rounded-xl;
+  }
+
+  /* index.css or global.css */
+.input-style {
+  @apply border border-gray-300 rounded-md px-4 py-2 shadow-sm bg-white/70 backdrop-blur focus:outline-none focus:ring-2 focus:ring-blue-400;
+}
+.btn-blue {
+  @apply bg-blue-600 text-white px-5 py-2 rounded-md hover:bg-blue-700 transition font-medium;
+}
+.btn-green {
+  @apply bg-green-600 text-white px-4 py-1 rounded-md hover:bg-green-700 transition;
+}
+.btn-red {
+  @apply bg-red-600 text-white px-4 py-1 rounded-md hover:bg-red-700 transition;
+}
+.glass-card {
+  @apply bg-white/60 backdrop-blur-md shadow-lg rounded-xl p-6 border border-white/30;
+}
